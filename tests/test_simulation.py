@@ -1,5 +1,4 @@
 import numpy as np
-
 from orbitlab.physics import orbital_velocity
 from orbitlab.simulation import simulate_orbit
 from orbitlab.units import ureg

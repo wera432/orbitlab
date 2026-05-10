@@ -16,5 +16,11 @@ jobs:
         python-version: '3.11'
   
     - run: pip install -e .
-    - run: pip install pytest
+
+    - run: pip install pytest ruff black
+
+    - run: ruff check .
+
+    - run: black --check .
+
     - run: pytest

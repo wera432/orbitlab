@@ -13,7 +13,8 @@ license = {text = "MIT"}
 dependencies = [
     "numpy",
     "matplotlib",
-    "pint"
+    "pint",
+    "numba"
 ]
 
 [tool.pytest.ini_options]

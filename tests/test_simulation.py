@@ -16,13 +16,9 @@ def test_simulation_runs():
 
     velocity = orbital_velocity(earth_mass, radius)
 
-    initial_position = np.array(
-        [radius.magnitude, 0]
-    ) * ureg.meter
+    initial_position = np.array([radius.magnitude, 0]) * ureg.meter
 
-    initial_velocity = np.array(
-        [0, velocity.magnitude]
-    ) * (ureg.meter / ureg.second)
+    initial_velocity = np.array([0, velocity.magnitude]) * (ureg.meter / ureg.second)
 
     steps = 1000
 

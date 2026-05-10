@@ -1,1 +1,9 @@
+site_name: OrbitLab
 
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Physics Background: physics.md
+  - API: api.md

@@ -234,19 +234,6 @@ mkdocs gh-deploy
 
 ---
 
-# Future Improvements
-
-Potential future extensions:
-
-* Velocity Verlet integration
-* Multi-body simulations
-* 3D orbital mechanics
-* Energy conservation analysis
-* Interactive visualization
-* Parallel Monte Carlo simulations
-
----
-
 # License
 
 MIT License
